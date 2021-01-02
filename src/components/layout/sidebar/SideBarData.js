@@ -58,7 +58,7 @@ export const SideBarData = [
       },
       {
         title: 'Popular',
-        path: '/movies/popular',
+        path: '/news/popular',
         icon: <AiIcons.AiFillStar />,
       },
     ],

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Trending = () => {
+const News = () => {
   return (
     <div className="App">
-      <h1>Trending</h1>
+      <h1>news</h1>
     </div>
   );
 };
 
-export default Trending;
+export default News;
