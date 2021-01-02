@@ -29,14 +29,14 @@
   display: flex;
   justify-content: center;
   position: fixed;
-  transition: 350ms;
+  transition: 500ms;
   z-index: 10;
 }
 
-.sidebar-nav::before {
+/* .sidebar-nav::before {
   background-image: url('https://cdn.wallpapersafari.com/54/52/b1DSQ4.jpg');
   opacity: 0.5;
-}
+} */
 
 .sidebar-wrap {
   width: 100%;
@@ -70,4 +70,13 @@
   /* height: 8%; */
   width: 100%;
   padding: 2px;
+}
+
+.test {
+  transition: 500ms;
+  padding-left: 15%;
+}
+.test1 {
+  transition: 500ms;
+  /* padding-left: none; */
 }

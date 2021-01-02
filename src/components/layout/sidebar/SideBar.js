@@ -9,10 +9,7 @@ import * as AiIcons from 'react-icons/ai';
 // import * as BiIcons from "react-icons/bi";
 import { IconContext } from 'react-icons/lib';
 
-const SideBar = () => {
-  const [sidebar, setsidebar] = useState(false);
-
-  const showSidebar = () => setsidebar(!sidebar);
+const SideBar = ({ sidebar, showSidebar }) => {
   return (
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
@@ -26,7 +23,7 @@ const SideBar = () => {
           </Link>
         </div>
 
-        <div className="sidebar-nav" style={{ left: sidebar ? '0' : '-100%' }}>
+        <div className="sidebar-nav" style={{ left: sidebar ? '0' : '-15%' }}>
           <div className="sidebar-wrap">
             {SideBarData.map((item, index) => {
               return <MenuItem item={item} key={index} />;
